@@ -5,7 +5,7 @@ using Veterinary_Clinic.Core.Services;
 
 namespace Veterinary_Clinic.Controllers
 {
-    public class UsersController : Controller
+    public class UsersController : BaseController
     {
         private UsersServices usersService { get; set; }
 

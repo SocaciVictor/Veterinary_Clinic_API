@@ -7,7 +7,7 @@ namespace Veterinary_Clinic.Controllers
 {
     [Authorize(Roles = "Admin")]
     [Route("api/Vets")]
-    public class VetsController : ControllerBase
+    public class VetsController : BaseController
     {
         private readonly VetsSerivices _vetsSerivices;
 
