@@ -7,9 +7,8 @@ using Veterinary_Clinic.Database.Entities;
 
 namespace Veterinary_Clinic.Database.Repositories
 {
-    public interface IVetRepository
+    public interface IAnimalRepository
     {
-        List<Vet> GetVets();
-
+        List<Animal> GetAllAnimals();
     }
 }
